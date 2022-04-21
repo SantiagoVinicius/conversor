@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+       
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        
+        <title>Hello World</title>
+        <link rel="stylesheet" href="/Conversor/www/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+
+    </head>
+    <body>
+        <form class="formulario">
+            <label for="metros" class="rotulo">METROS:</label>
+            <input type="number" name="metros" id="metros" class="campo-numero">
+            <br>
+            <label class="rotulo">CENTÍMETROS:</label>
+            <span id="centimetros" class="campo-numero"></span>
+            <br>
+            <button class="botao" onclick="ConversorMetrosCentimetros()" type="button">CONVERTER</button>
+        </form>
+        
+        <script src="/Conversor/www/jquery-3.6.0.min.js"></script>
+        <script src="/Conversor/www/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
